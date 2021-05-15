@@ -7,6 +7,7 @@
 #include <windows.h>
 #include "Map.h"
 #include "Pathfinder.h"
+using namespace std;
 
 bool mouseMoveMode = false;
 
@@ -49,7 +50,7 @@ int main()
 	text.setFont(font);
 	text.setString("GAME OVER");
 	text.setCharacterSize(30);
-	text.setColor(sf::Color::Yellow);
+	text.setFillColor(sf::Color::Yellow);
 
 	Map map;
 	Pathfinder path(&map);

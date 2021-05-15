@@ -3,7 +3,7 @@
 
 Cell::Cell()
 {
-	if (!this->texture.loadFromFile("sp.png"))
+	if (!this->texture.loadFromFile("resources/sp.png"))
 		printf("Error texturing...\n");
 	return;
 }
@@ -21,9 +21,9 @@ void Cell::draw(sf::RenderWindow& window)
 
 Cannon::Cannon()
 {
-	if (!this->texLeft.loadFromFile("can_left.png"))
+	if (!this->texLeft.loadFromFile("resources/can_left.png"))
 		printf("Error texturing...\n");
-	if (!this->texRight.loadFromFile("can_right.png"))
+	if (!this->texRight.loadFromFile("resources/can_right.png"))
 		printf("Error texturing...\n");
 	return;
 }
@@ -57,7 +57,7 @@ void Fireball::draw(sf::RenderWindow& window)
 
 Keeper::Keeper()
 {
-	if (!this->texture.loadFromFile("owl.png"))
+	if (!this->texture.loadFromFile("resources/owl.png"))
 		printf("Error texturing...\n");
 	return;
 }
@@ -95,11 +95,11 @@ Map::Map()
 	playerCell = nullptr;
 	playerFutureCell = nullptr;
 
-	if (!this->texturePlayer.loadFromFile("cat.png"))
+	if (!this->texturePlayer.loadFromFile("resources/cat.png"))
 		printf("Error texturing...\n");
-	if (!this->texFireballLeft.loadFromFile("fb_left.png"))
+	if (!this->texFireballLeft.loadFromFile("resources/fb_left.png"))
 		printf("Error texturing...\n");
-	if (!this->texFireballRight.loadFromFile("fb_right.png"))
+	if (!this->texFireballRight.loadFromFile("resources/fb_right.png"))
 		printf("Error texturing...\n");
 	return;
 }

@@ -29,7 +29,4 @@ find_package(SFML 2 REQUIRED system window graphics)
 #include_directories(${SFML_INCLUDE_DIR})
 target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-window)
 
-get_property(dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
-foreach(dir ${dirs})
-    message("included: ${dir}")
-endforeach()
+file(COPY resources DESTINATION ${CMAKE_BINARY_DIR})

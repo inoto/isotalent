@@ -44,7 +44,7 @@ int main()
 
 	// setup a text for ingame debug info
 	sf::Font font;
-	if (!font.loadFromFile("OpenSans-Regular.ttf"))
+	if (!font.loadFromFile("resources/OpenSans-Regular.ttf"))
 		return 1;
 	sf::Text text;
 	text.setFont(font);

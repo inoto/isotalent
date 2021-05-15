@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="189f61da-d4e9-4129-8ca2-b82c2762ed99" name="Unnamed" defaultType="TOOL">
+      <configuration id="9a607567-f44f-4568-8354-2a863828cae9" name="Unnamed" toolchainName="MinGW">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_Debug" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_Debug" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
